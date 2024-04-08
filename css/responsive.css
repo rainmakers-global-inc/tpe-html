@@ -1,0 +1,271 @@
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1800px;
+    padding: 0px 15px;
+  }
+}
+
+@media (max-width: 1499px) {
+  .application .app_cld_one {
+    right: 0;
+    top: -250px;
+  }
+}
+
+@media (max-width: 1199px) {
+  /* home page */
+  .header .navbar-light .navbar-nav .nav-item {
+    margin-right: 25px;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .banner_slider .bnr_cnt {
+    padding: 50px 0;
+  }
+  h2 {
+    font-size: 21px;
+    line-height: 30px;
+  }
+  .manusfct_counter li h3 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .private_label_cnt h2 {
+    font-size: 40px;
+    line-height: 45px;
+    padding-bottom: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* mobile menu start */
+
+  .header .navbar-collapse {
+    background-color: rgb(255, 255, 255);
+    padding: 50px 20px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 300px;
+    transform: translateX(100%);
+    transition: 300ms all ease-in-out;
+    box-shadow: 0px 12px 14px rgb(23 124 180 / 14%);
+    display: block;
+    height: 100vh;
+    z-index: 9;
+  }
+
+  .header .navbar-collapse.collapse.show {
+    transform: translateX(0);
+  }
+
+  .header .navbar-collapse.collapse.show ~ .navbar-toggler {
+    z-index: 99;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+  }
+  .bnr_cnt h1 {
+    max-width: 490px;
+    padding-bottom: 15px;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .bg_img img {
+    min-height: 280px;
+    object-fit: cover;
+  }
+  .manusfct_counter li:first-child {
+    margin-right: 55px;
+  }
+  .ftr_logo img {
+    max-width: 160px;
+  }
+  .cart_icon {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* home page */
+  .use_manufact_cnt_left {
+    margin-left: 0;
+  }
+  .usa_manufacture::before {
+    top: unset;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+  }
+  .usa_manufacture {
+    background-size: 100% 50%;
+    background-position: bottom center;
+    padding-bottom: 30px;
+  }
+  .usa_manufacture::after {
+    width: 100%;
+    height: 50%;
+  }
+  .usa_manufacture .col-md-6:first-child {
+    margin-bottom: 80px;
+  }
+  .gloves_will .row .col-md-6:first-child {
+    order: 2;
+  }
+  .gloves_will .row .col-md-6:last-child {
+    order: 1;
+  }
+  .gloves_will_txt {
+    max-width: initial;
+    margin-top: 35px;
+  }
+  .gloves_will {
+    padding: 80px 0 70px;
+  }
+  .glove_usage_cnt_wrap li {
+    max-width: 50%;
+  }
+  .private_label_cnt h2 {
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 10px;
+  }
+  .we_do_img {
+    position: relative;
+    width: 100%;
+  }
+  .we_do {
+    padding: 0px 0 80px;
+  }
+  .we_do_cnt {
+    max-width: 100%;
+    margin-top: 35px;
+  }
+  .contact_us_inr {
+    padding: 40px 25px;
+    max-width: initial;
+  }
+  .ftr_cnt {
+    text-align: center;
+    padding-bottom: 35px;
+  }
+  .scl_icon ul {
+    justify-content: center;
+  }
+  .btm_ftr_item {
+    flex-direction: column;
+  }
+  .btm_ftr_item ul {
+    margin-top: 20px;
+  }
+  .contact_us_inr h2 {
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+  .contact_us_inr p {
+    padding-bottom: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header .navbar-brand {
+    max-width: 120px;
+  }
+  .glove_usage_inr_txt h4 {
+    font-size: 16px;
+  }
+  .ftr_right_item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .ftr_adress {
+    padding-bottom: 0;
+  }
+  h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .gloves_will {
+    padding: 60px 0;
+  }
+  .glove_usage_cnt_wrap li {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .glove_usage_hdng {
+    padding-bottom: 25px;
+  }
+  .glove_usages {
+    padding: 60px 0 20px;
+  }
+  .private_label {
+    padding: 60px 0;
+  }
+  .private_label_cnt h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .contact_us {
+    padding: 60px 0;
+  }
+  .scl_icon {
+    padding-top: 20px;
+  }
+  .scl_icon ul li a {
+    min-width: 35px;
+    font-size: 14px;
+    height: 35px;
+    width: 35px;
+  }
+  .btm_ftr_item ul li img {
+    max-width: 80px;
+  }
+  .contact_us_inr h2 {
+    font-size: 25px;
+  }
+  .manusfct_counter li h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .usa_manufacture {
+    padding-top: 40px;
+  }
+  .usa_manufacture .col-md-6:first-child {
+    margin-bottom: 60px;
+  }
+  .glove_lst_txt h3 {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  .glove_usage_img {
+    margin-bottom: 20px;
+  }
+  .glove_usage_cnt_wrap li {
+    padding: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .private_label_cnt h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .contact_us_inr p {
+    font-size: 16px;
+  }
+  .btm_ftr {
+    padding: 20px 0;
+  }
+  .header .navbar-brand {
+    max-width: 80px;
+  }
+}
