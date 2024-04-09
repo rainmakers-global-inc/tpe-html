@@ -25,6 +25,19 @@ $(".review_slider_2").slick({
   // speed: 2000,
   pauseOnHover: false,
 });
+$(".review_slider_3").slick({
+  dots: false,
+  infinite: true,
+  arrows: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+
+  // variableWidth: true,
+  autoplay: false,
+  autoplaySpeed: 0,
+  // speed: 2000,
+  pauseOnHover: false,
+});
 
 // start centersld
 $(document).ready(function () {
@@ -53,3 +66,45 @@ $(".communityslider").slick({
   cssEase: "linear",
 });
 // end communityslider======================
+
+// start satisfiedclients =====================================
+$(".satisfiedclients").slick({
+  centerMode: true,
+  centerPadding: "160px",
+  slidesToShow: 3,
+  dots: false,
+  arrows: true,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: "100px",
+        slidesToShow: 1,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: "0px",
+        slidesToShow: 1,
+      },
+    },
+  ],
+});
+// end satisfiedclients =======================================
+
+$(".success_storiesld").slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true,
+  arrows: false,
+  autoplay: false,
+  autoplaySpeed: 2000,
+  speed: 2000,
+});

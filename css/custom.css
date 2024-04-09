@@ -1769,13 +1769,14 @@ ul.termtxt li:last-child {
 .communityslider {
   position: relative;
 }
-.communityslider::before {
+.communityslider::after {
   content: "";
   position: absolute;
   background: url(../images/slidshadow.png) no-repeat;
   top: -1px;
   height: 100%;
-  width: 35%;
+  /* width: 35%; */
+  width: 285px;
   z-index: 1;
   right: 0;
   background-repeat: repeat-y;
@@ -1839,3 +1840,235 @@ ul.termtxt li:last-child {
   margin-bottom: 70px;
 }
 /* end expert_programsect */
+
+/* start testimonialbanner */
+.testimonialbanner h1 {
+  text-transform: none;
+  max-width: 800px;
+}
+.btnwhiteboxbtn .yellowbtn {
+  background: #fff;
+  color: #1e1e1e;
+  border: 2px solid #fff;
+}
+.btnwhiteboxbtn .yellowbtn:hover {
+  background: transparent;
+  color: #fff;
+}
+.btnwhiteboxbtn {
+  justify-content: center;
+  margin-top: 60px;
+}
+.mrt100 {
+  margin-top: 100px;
+}
+.satisfiedsect {
+  width: 100%;
+  position: relative;
+  background: #f1f4ff;
+}
+.atisfiedheading {
+  max-width: 670px;
+  margin: 0 auto 90px;
+}
+.satisfiedclients .satitem {
+  margin: 0px 15px;
+  position: relative;
+  opacity: 0.3;
+}
+.satisfiedclients .satitem.slick-center {
+  opacity: 1;
+}
+.satitemcontent h4 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.satitemcontent p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #c7cada;
+  margin: 0px;
+}
+.satitemcontent {
+  position: absolute;
+  bottom: 0;
+  padding: 35px;
+  width: 100%;
+}
+.playbtn {
+  width: 45px;
+  height: 45px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgba(255, 255, 255, 0.4); */
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background: url(../images/halfring.svg) no-repeat rgba(255, 255, 255, 0.4);
+  background-size: 44px 44px;
+  background-position: center center;
+  position: absolute;
+  right: 35px;
+  bottom: 50px;
+}
+.satisfiedclients .satitem.slick-center .playbtn {
+  width: 75px;
+  height: 75px;
+  background-size: 100% 100%;
+  background-position: 1px 0px;
+  bottom: auto;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+.satisfiedclients .slick-arrow {
+  position: absolute;
+  background: url(../images/slidearrow.png) center center no-repeat
+    rgb(255, 210, 0);
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.satisfiedclients .slick-next {
+  transform: rotate(180deg);
+  right: 20px;
+}
+.satisfiedclients .slick-prev {
+  left: 20px;
+}
+.succesectionwhite {
+  background: #fff;
+}
+.succesectionwhite .countroundbox {
+  background: #f1f4ff;
+}
+.succesectionwhite .countroundbox:nth-child(even) {
+  background: #ffd200;
+}
+.satisfiedclients::before {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: url(../images/sldshead.png) no-repeat;
+  background-size: 100% 100%;
+  z-index: 1;
+}
+.satisfiedclients::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  background: url(../images/sldshead2.png) no-repeat;
+  background-size: 100% 100%;
+  z-index: 1;
+}
+
+.success_storiesld .slick-dots li button {
+  border: 1px solid #00020f;
+  width: 14px;
+  height: 14px;
+  border-radius: 100px;
+  padding: 0;
+  display: flex;
+  font-size: 0px;
+}
+.success_storiesld .slick-dots li button::before {
+  display: none;
+}
+.success_storiesld .slick-dots li.slick-active button {
+  background: #00020f;
+}
+.success_storiesld .slick-dots li {
+  width: auto;
+  height: auto;
+}
+.success_storiesld .slick-dots {
+  position: absolute;
+  bottom: 0px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  left: 35px;
+  margin: 0;
+  list-style: none;
+  text-align: left;
+}
+.listenimgbox {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+}
+.listenimgbox {
+  position: relative;
+}
+.listenimgbox::after {
+  position: absolute;
+  content: "";
+  width: 80%;
+  height: 80%;
+  right: -20px;
+  bottom: -20px;
+  background: url(../images/sldimgsheap.png) no-repeat;
+  background-size: 100% 100%;
+  z-index: 1;
+}
+.listenimgbox img {
+  position: relative;
+  z-index: 2;
+}
+.listenimgbox .playbtn {
+  z-index: 3;
+  width: 75px;
+  height: 75px;
+  background-size: 100% 100%;
+  background-position: 1px 0px;
+  bottom: auto;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+.success_storiesld .besp {
+  margin-bottom: 0px;
+}
+.success_storiesld {
+  padding-left: 40px;
+}
+.case_studiesect {
+  width: 100%;
+  position: relative;
+  background: #f1f4ff;
+}
+.casecont {
+  padding: 30px;
+}
+.casecont h5 {
+  font-family: Helvetica;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 18px;
+}
+.casecont p {
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 0px;
+  color: #545454;
+  text-transform: capitalize;
+}
+.mb80 {
+  margin-bottom: 80px;
+}
+/* end testimonialbanner */
