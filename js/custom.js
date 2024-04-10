@@ -108,3 +108,27 @@ $(".success_storiesld").slick({
   autoplaySpeed: 2000,
   speed: 2000,
 });
+
+// start footer slider==========================================
+$(".footerlogoslider").slick({
+  slidesToShow: 8,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 0,
+  speed: 4000,
+  cssEase: "linear",
+  infinite: true,
+});
+// end footer slider==========================================
+
+// start blackstriplistsld ==========================================
+$(".blackstriplistsld").slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 0,
+  speed: 10000,
+  cssEase: "linear",
+  infinite: true,
+});
+// end blackstriplistsld ==========================================
