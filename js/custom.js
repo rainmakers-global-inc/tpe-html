@@ -132,3 +132,4 @@ $(".blackstriplistsld").slick({
   infinite: true,
 });
 // end blackstriplistsld ==========================================
+AOS.init();

@@ -827,7 +827,7 @@ ul.marketlisting li::before {
 
 .review_slider .slick-next {
   transform: rotate(180deg);
-  margin-top: -142px;
+  margin-top: -146px;
   right: 40px;
 }
 .readmorebtn {
@@ -858,7 +858,7 @@ ul.marketlisting li::before {
 }
 .published_expert::after {
   height: 100%;
-  width: 59%;
+  width: 55%;
   position: absolute;
   z-index: 1;
   content: "";
@@ -1073,6 +1073,9 @@ ul.marketlisting li::before {
 
 .footsinglogo {
   width: 130px !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
 }
 .foot-right {
   display: flex;
@@ -1777,6 +1780,7 @@ ul.termtxt li:last-child {
   content: "";
   position: absolute;
   background: url(../images/slidshadow.png) no-repeat;
+  background-size: 100%;
   top: -1px;
   height: 100%;
   width: 35%;
@@ -2210,14 +2214,14 @@ ul.termtxt li:last-child {
 .blogdetailsect p + p {
   margin-top: 30px;
 }
-.blogsmallcont {
+.blogdetailsect blockquote {
   border-left: 3px solid #ffd200;
   padding-left: 30px;
   margin: 80px 0px 60px 60px;
   width: 100%;
   max-width: 830px;
 }
-.blogsmallcont p strong {
+.blogdetailsect blockquote p strong {
   font-weight: 700;
 }
 .blogdetailsect h2,
@@ -2232,11 +2236,11 @@ ul.termtxt li:last-child {
   position: relative;
   max-width: 950px;
 }
-.bloglisting {
+.blogdetailsect ul {
   margin: 30px 0px 60px;
   padding: 0px;
 }
-.bloglisting li {
+.blogdetailsect li {
   font-size: 18px;
   font-weight: 700;
   line-height: 30px;
@@ -2246,19 +2250,18 @@ ul.termtxt li:last-child {
   background-position: top left;
   background-size: 26px 26px;
 }
-.bloglisting li + li {
+.blogdetailsect li + li {
   margin-top: 25px;
 }
-.blogpegination {
+.blogpagination {
   width: 100%;
   max-width: 480px;
   margin: 80px auto 0 auto;
-}
-.blogpegination ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .blogpegination .page-link {
   display: flex;
   align-items: center;
@@ -2278,8 +2281,295 @@ ul.termtxt li:last-child {
 .blogpegination .page-item.active .page-link {
   background: #ffd200;
 }
-.blogpegination .page-item .page-link i {
+.blogpegination a {
   color: #6a697c;
 }
-
+.blackstriplistsld .slick-slide {
+  display: block;
+  width: fit-content !important;
+  padding-right: 40px;
+  margin-right: 140px;
+}
 /* end 10.04.24 */
+
+/* start press_mediaben */
+.press_mediaben h1 {
+  max-width: 880px;
+}
+.pressmediabensection {
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #cacaca;
+}
+.pressmediabensection .nav-tabs .nav-item.show .nav-link,
+.pressmediabensection .nav-tabs .nav-link.active {
+  border: 0px;
+  color: #00020f;
+  border-bottom: 2px solid #00020f;
+}
+.pressmediabensection .nav-tabs .nav-link {
+  border: 0px;
+  padding: 0px;
+}
+.pressmediabensection .nav-link {
+  color: #a2a2a2;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+.pressmediabensection .nav-tabs {
+  border-bottom: 0px;
+}
+.pressmediabensection .nav.nav-tabs {
+  gap: 0px 40px;
+}
+.pressmediabensection .blogsmltext {
+  padding-left: 0px;
+  width: 100%;
+  margin-bottom: 80px;
+}
+.pressmediabensection .tab-content {
+  margin-top: 70px;
+}
+.pressmediabensection .blogsmltext h4 {
+  font-size: 18px;
+}
+.pressmediabenmorboxsection {
+  position: relative;
+  width: 100%;
+}
+.bordnon {
+  border-bottom: 0px;
+}
+.medimgbox {
+  margin-bottom: 30px;
+}
+.pressmediabensection.sectiongap {
+  padding-bottom: 20px;
+}
+.mediakitsect {
+  width: 100%;
+  position: relative;
+  background: #f1f4ff;
+}
+.mediakitheading p {
+  max-width: 420px;
+  margin: 30px auto;
+  font-size: 18px;
+}
+.mediakitheading .yellowbtn {
+  margin: 0 auto;
+}
+.mediakitwhitebox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 25px;
+  width: 100%;
+  height: 290px;
+  text-align: center;
+}
+.mediakitwhitebox h3 {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.mediakitwhitebox p {
+  max-width: 290px;
+  margin: 0 auto;
+}
+.mediakitheading {
+  margin-bottom: 80px;
+}
+/* end press_mediaben */
+
+/* start contact us */
+.contactban h1 {
+  width: 100%;
+  max-width: 500px;
+}
+.blogcontbox.blogwhitebox .input-group.blogform {
+  flex-wrap: nowrap;
+}
+.blogcontbox.blogwhitebox .input-group.blogform .wpcf7-spinner {
+  display: none;
+}
+.contactformsect .form-control {
+  height: 52px;
+  box-shadow: 0px 7px 29px 0px #00000014;
+  border-radius: 5px;
+}
+.contactformsect label {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  color: #1e1e1e;
+}
+.contactformsect .form-control::placeholder {
+  color: #8d90a5;
+}
+.mb8 {
+  margin-bottom: 80px;
+}
+.form-check {
+  font-size: 16px;
+  line-height: 26px;
+}
+.form-check a {
+  color: #0b2236;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.contactformsect .yellowbtn {
+  box-shadow: none;
+  border: 0px;
+  outline: none;
+  margin-top: 35px;
+}
+.wellowcontactbox {
+  width: 100%;
+  position: relative;
+  background: #ffd200;
+  padding: 40px;
+  border-radius: 10px;
+}
+.wellowcontactbox h3 {
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+.wellowinsidecont p {
+  color: #00020f;
+}
+.wellowinsidecont {
+  width: 100%;
+  max-width: 330px;
+}
+.contactlistdtl {
+  margin: 30px 0px 0px;
+  padding: 0px;
+}
+.contactlistdtl li {
+  display: flex;
+  align-items: center;
+}
+.contactlistdtl li:last-child {
+  align-items: self-start;
+}
+.contactlistdtl li p {
+  margin: 0px;
+}
+.contactlistdtl li .cticon {
+  width: 20px;
+}
+.contactlistdtl li + li {
+  margin-top: 30px;
+}
+.cticonlist {
+  padding-left: 20px;
+  max-width: 260px;
+}
+.wellowcontactbox .midealist {
+  margin-left: 0px;
+  margin-top: 30px;
+}
+.wellowcontactbox .midealist li a {
+  background: #00020f;
+  color: #ffd200;
+  border: 1px solid #00020f;
+}
+.wellowcontactbox .midealist li a:hover {
+  background: #ffd200;
+  color: #00020f;
+}
+.mapimgsection {
+  width: 100%;
+  position: relative;
+  margin-top: -300px;
+}
+.mapimgsection img {
+  width: 100%;
+}
+.contactformsect {
+  position: relative;
+  z-index: 1;
+}
+.faqsection {
+  width: 100%;
+  background: #f1f4ff;
+}
+.faqflex {
+  display: flex;
+  margin-bottom: 30px;
+}
+.qusicon {
+  background: #ffd200;
+  width: 85px;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.quscont h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-transform: none;
+}
+.quscont p {
+  max-width: 280px;
+}
+.quscont {
+  padding-left: 30px;
+}
+.faqsection .blogcontbox.blogwhitebox {
+  margin-top: 60px;
+}
+.faqsection .accordion-item {
+  border: 0px;
+  box-shadow: 0px 14px 32px 0px #00000008;
+  border-radius: 10px;
+}
+.faqsection .accordion-button {
+  border-radius: 10px !important;
+  border: 0px;
+  box-shadow: none;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #1e1e1e;
+  padding: 20px 25px;
+}
+.faqsection .accordion-body {
+  padding: 0px 25px 45px;
+}
+.faqsection .accordion-body p {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+.faqsection .accordion-button:not(.collapsed) {
+  background: #fff;
+}
+.faqsection .accordion-button::after {
+  background-image: url(../images/arrow.svg);
+  width: 15px;
+  height: 15px;
+  background-size: 100% 100%;
+}
+.faqsection .accordion-button:not(.collapsed)::after {
+  background-image: url(../images/arrow.svg);
+}
+.faqsection .accordion {
+  margin-top: 10px;
+}
+/* end contact us */
+.market_box img {
+  width: 100%;
+  height: 100px;
+}
+.faqsection .accordion-item + .accordion-item {
+  margin-top: 36px;
+}
