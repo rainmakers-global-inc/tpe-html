@@ -1,11 +1,11 @@
 $(".review_slider_1").slick({
   dots: false,
   infinite: true,
-  arrows: true,
+  arrows: false,
   slidesToShow: 3,
   slidesToScroll: 1,
 
-  variableWidth: true,
+  // variableWidth: true,
   autoplay: false,
   autoplaySpeed: 0,
   // speed: 2000,

@@ -159,14 +159,14 @@ h6 {
   text-transform: capitalize;
 }
 h2 {
-  font-size: 80px;
+  font-size: 40px;
 }
 h3 {
-  font-size: 45px;
+  font-size: 30px;
 }
 p {
   font-size: 16px;
-  line-height: 25px;
+  line-height: 30px;
   margin-bottom: 15px;
 }
 .cmn_btn {
@@ -327,8 +327,8 @@ p {
   height: 671px;
 }
 .banner_sect h1 {
-  font-size: 94px;
-  line-height: 100px;
+  font-size: 60px;
+  line-height: normal;
   font-weight: 800;
   background: url(../images/textimg.png) 0 0 / cover no-repeat;
   background-clip: text;
@@ -353,14 +353,14 @@ p {
 }
 .banncont p {
   color: #fff;
-  max-width: 467px;
+  max-width: 430px;
   letter-spacing: normal;
   font-weight: normal;
   margin-top: 15px;
   font-family: Helvetica;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 38px;
+  line-height: 30px;
 }
 .banncont p strong {
   font-weight: 600;
@@ -468,9 +468,9 @@ p {
 .welbgbox h2 {
   font-family: "Oswald";
   color: #00020f;
-  font-size: 80px;
-  line-height: 90px;
-  margin-bottom: 30px;
+  font-size: 40px;
+  line-height: normal;
+  margin-bottom: 20px;
 }
 
 h1,
@@ -483,19 +483,19 @@ h6 {
 }
 .subtitle {
   color: #00020f;
-  font-size: 42px;
+  font-size: 30px;
   margin-bottom: 15px;
 }
 .sectiongap {
-  padding: 130px 0px;
+  padding: 60px 0px;
 }
 .welbgbox p {
   color: #00020f;
   font-size: 16px;
-  line-height: 38px;
+  line-height: 30px;
 }
 .welbgbox p + p {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .btnflex {
   display: flex;
@@ -519,10 +519,11 @@ h6 {
   position: absolute;
   content: " ";
   background: url(../images/hastag.png) top center no-repeat;
-  width: 69px;
-  height: 85px;
+  background-size: 100%;
+  width: 35px;
+  height: 45px;
   margin-left: 25px;
-  margin-top: -15px;
+  margin-top: 0px;
 }
 .programesection {
   position: relative;
@@ -591,16 +592,16 @@ h6 {
 .programelisting h2 {
   color: rgb(0, 2, 15);
   font-family: Helvetica;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 30px;
   text-transform: capitalize;
   max-width: 70%;
-  margin-bottom: 34px;
+  margin-bottom: 30px;
 }
 .programelisting .readmore {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background: #fff;
   border-radius: 50%;
   border: 1px solid #e4e4e4;
@@ -680,11 +681,11 @@ h6 {
 }
 .market_box h2 {
   color: #00020f;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
-  line-height: 48px;
-  max-width: 172px;
-  margin: 70px auto 0;
+  line-height: normal;
+  max-width: 160px;
+  margin: 30px auto 0;
 }
 ul.marketlisting {
   list-style: none;
@@ -858,7 +859,7 @@ ul.marketlisting li::before {
 }
 .published_expert::after {
   height: 100%;
-  width: 55%;
+  width: 52%;
   position: absolute;
   z-index: 1;
   content: "";
@@ -874,9 +875,9 @@ ul.marketlisting li::before {
 .published_experttitle {
   color: rgb(0, 2, 15);
   font-family: Oswald;
-  font-size: 55px;
+  font-size: 40px;
   font-weight: 700;
-  line-height: 94px;
+  line-height: normal;
   letter-spacing: -3%;
   text-align: left;
   text-transform: capitalize;
@@ -923,8 +924,8 @@ ul.marketlisting li::before {
   color: #ffd200;
 }
 .newsletterquoteimg {
-  width: 57px;
-  margin-bottom: 50px;
+  width: 45px;
+  margin-bottom: 30px;
 }
 .yourstore_box {
   text-align: right;
@@ -934,20 +935,21 @@ ul.marketlisting li::before {
 .yourstore_box h2 {
   color: rgb(0, 2, 15);
   font-family: Oswald;
-  font-size: 90px;
+  font-size: 45px;
   font-weight: 700;
-  line-height: 125px;
+  line-height: normal;
   text-align: center;
   text-transform: capitalize;
+  max-width: 80%;
 }
 .yourstore_box h2 span {
   font-weight: 300;
 }
 .yourstore_box img {
-  width: 150px;
+  width: 100px;
   position: relative;
   margin-top: -100px;
-  margin-right: -100px;
+  margin-right: 00px;
 }
 
 /* blog start */
@@ -1000,21 +1002,19 @@ ul.marketlisting li::before {
   padding-left: 50px;
 }
 .blogtxtarea h2 {
-  line-height: 90px;
+  line-height: normal;
 }
 
 .blogtxtarea h4 {
   color: #4d5169;
-  font-size: 22px;
+  font-size: 18px;
   padding-bottom: 15px;
   font-family: "Helvetica";
   text-transform: uppercase;
 }
 .blogtxtarea p {
-  font-size: 22px;
-  line-height: 33px;
   font-family: "Helvetica";
-  padding-right: 79px;
+  padding-right: 50px;
   padding-top: 30px;
   padding-bottom: 19px;
 }
@@ -1037,15 +1037,15 @@ ul.marketlisting li::before {
   width: 296px;
 }
 .blogsmltext h2 {
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 22px;
+  line-height: normal;
   margin-bottom: 30px;
 }
 
 .blogsmltext h4 {
   color: #4d5169;
-  font-size: 22px;
-  padding-bottom: 15px;
+  font-size: 16px;
+  padding-bottom: 10px;
   font-family: "Helvetica";
   text-transform: uppercase;
 }
@@ -1253,16 +1253,16 @@ ul.termtxt li:last-child {
   width: 100%;
   position: relative;
   background: #ffd200;
-  padding: 120px 0px;
+  padding: 60px 0px;
 }
 .innerbnnar h3 {
-  font-size: 60px;
+  font-size: 30px;
   margin-bottom: 10px;
 }
 .innerbnnar h1 {
-  font-size: 100px;
+  font-size: 60px;
   font-family: "Oswald";
-  line-height: 110px;
+  line-height: normal;
   max-width: 760px;
   margin: 0 auto;
 }
@@ -1270,14 +1270,10 @@ ul.termtxt li:last-child {
   font-family: "Smooch", cursive;
   font-weight: 100;
 }
-.wasmundsection h3 {
-  font-size: 50px;
-}
+
 .wasmundsection h2 {
-  font-size: 85px;
   width: 100%;
   max-width: 620px;
-  line-height: 100px;
 }
 .contmaxwidth {
   width: 100%;
@@ -1316,14 +1312,14 @@ ul.termtxt li:last-child {
   max-width: 188px;
 }
 .iconbox {
-  width: 136px;
-  height: 136px;
+  width: 110px;
+  height: 110px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 100%;
   background: #ffffff4d;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 .ceocontentbox p {
   color: #343643;
@@ -1343,13 +1339,13 @@ ul.termtxt li:last-child {
   align-items: center;
   justify-content: space-between;
   gap: 0px 30px;
-  margin-top: 120px;
+  margin-top: 50px;
 }
 .countroundbox {
   flex: 1;
   background: #ffffff;
   border-radius: 100px;
-  height: 200px;
+  height: 160px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1358,16 +1354,16 @@ ul.termtxt li:last-child {
   background: #ffd200;
 }
 .countroundbox h4 {
-  font-size: 60px;
+  font-size: 35px;
   font-weight: 700;
 }
 .countroundbox p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: #00020f;
   width: 100%;
-  max-width: 230px;
-  margin: 20px auto 0;
+  max-width: 120px;
+  margin: 10px auto 0;
 }
 .headingcompany.text-center {
   width: 100%;
@@ -1434,7 +1430,7 @@ ul.termtxt li:last-child {
 .swiper-container {
   position: relative;
   height: 534px;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .swiper-container > .swiper-slide__content {
@@ -1540,7 +1536,7 @@ ul.termtxt li:last-child {
 }
 .clintbox ul li {
   position: relative;
-  padding-left: 140px;
+  padding-left: 100px;
 }
 .clintbox ul li + li {
   margin-top: 40px;
@@ -1550,22 +1546,20 @@ ul.termtxt li:last-child {
   content: "0" counter(section);
   position: absolute;
   left: 0;
-  font-size: 100px;
+  font-size: 70px;
   font-weight: 700;
   font-family: "Oswald";
   color: #d4daee;
   top: 25px;
 }
 .published h3 {
-  font-size: 40px;
-  text-transform: none;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .published p {
   border-left: 5px solid #1e1e1e;
   padding-left: 30px;
   max-width: 600px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .besp {
   color: #00020f;
@@ -1584,7 +1578,7 @@ ul.termtxt li:last-child {
   width: 100%;
   position: relative;
   background: #ffd200;
-  padding: 116px 0px;
+  padding: 60px 0px;
 }
 .booksection .blackbtn {
   color: #fff;
@@ -1615,16 +1609,14 @@ ul.termtxt li:last-child {
   align-items: center;
 }
 .innerbnnar .expheading h1 {
-  max-width: 808px;
+  max-width: 700px;
 }
 .expcontent .btnflex {
   flex-direction: column;
   align-items: normal;
 }
 .expcontent p {
-  font-size: 22px;
   font-weight: 400;
-  line-height: 38px;
   color: #1e1e1e;
 }
 .expcontent .btnflex a + a {
@@ -1674,10 +1666,7 @@ ul.termtxt li:last-child {
 .maxfull {
   max-width: 100% !important;
 }
-.contmaxwidth p {
-  line-height: 30px !important;
-  font-size: 18px;
-}
+
 .contmaxwidth {
   max-width: 620px;
 }
@@ -1864,7 +1853,7 @@ ul.termtxt li:last-child {
 }
 .btnwhiteboxbtn {
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 .mrt100 {
   margin-top: 100px;
@@ -1887,13 +1876,13 @@ ul.termtxt li:last-child {
   opacity: 1;
 }
 .satitemcontent h4 {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 700;
   color: #fff;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
 }
 .satitemcontent p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: #c7cada;
   margin: 0px;
@@ -2063,10 +2052,10 @@ ul.termtxt li:last-child {
 }
 .casecont h5 {
   font-family: Helvetica;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 700;
-  line-height: 32px;
-  margin-bottom: 18px;
+  line-height: 30px;
+  margin-bottom: 15px;
 }
 .casecont p {
   font-size: 16px;
@@ -2138,7 +2127,7 @@ ul.termtxt li:last-child {
   padding: 0px 40px;
 }
 .blknopd .slick-track {
-  padding: 40px 0px;
+  padding: 25px 0px;
 }
 /* end blog section */
 
@@ -2240,7 +2229,7 @@ ul.termtxt li:last-child {
   margin: 30px 0px 60px;
   padding: 0px;
 }
-.blogdetailsect li {
+/* .blogdetailsect li {
   font-size: 18px;
   font-weight: 700;
   line-height: 30px;
@@ -2249,7 +2238,7 @@ ul.termtxt li:last-child {
   background: url(../images/check.svg) no-repeat;
   background-position: top left;
   background-size: 26px 26px;
-}
+} */
 .blogdetailsect li + li {
   margin-top: 25px;
 }
@@ -2288,7 +2277,7 @@ ul.termtxt li:last-child {
   display: block;
   width: fit-content !important;
   padding-right: 40px;
-  margin-right: 140px;
+  margin-right: 80px;
 }
 /* end 10.04.24 */
 
@@ -2313,7 +2302,7 @@ ul.termtxt li:last-child {
 }
 .pressmediabensection .nav-link {
   color: #a2a2a2;
-  font-size: 22px;
+  font-size: 18px;
   text-transform: capitalize;
 }
 .pressmediabensection .nav-tabs {
@@ -2330,9 +2319,7 @@ ul.termtxt li:last-child {
 .pressmediabensection .tab-content {
   margin-top: 70px;
 }
-.pressmediabensection .blogsmltext h4 {
-  font-size: 18px;
-}
+
 .pressmediabenmorboxsection {
   position: relative;
   width: 100%;
@@ -2371,7 +2358,7 @@ ul.termtxt li:last-child {
   text-align: center;
 }
 .mediakitwhitebox h3 {
-  font-size: 25px;
+  font-size: 22px;
   margin-bottom: 25px;
 }
 .mediakitwhitebox p {
@@ -2434,8 +2421,7 @@ ul.termtxt li:last-child {
   border-radius: 10px;
 }
 .wellowcontactbox h3 {
-  font-size: 40px;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 .wellowinsidecont p {
   color: #00020f;
@@ -2462,7 +2448,7 @@ ul.termtxt li:last-child {
   width: 20px;
 }
 .contactlistdtl li + li {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .cticonlist {
   padding-left: 20px;
@@ -2534,19 +2520,17 @@ ul.termtxt li:last-child {
   border: 0px;
   box-shadow: none;
   font-family: Helvetica;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 26px;
   letter-spacing: 0.01em;
   text-align: left;
   color: #1e1e1e;
-  padding: 20px 25px;
+  padding: 15px 20px;
 }
-.faqsection .accordion-body {
-  padding: 0px 25px 45px;
-}
+
 .faqsection .accordion-body p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
   margin-bottom: 0;
 }
@@ -2568,8 +2552,130 @@ ul.termtxt li:last-child {
 /* end contact us */
 .market_box img {
   width: 100%;
-  height: 100px;
+  height: 50px;
 }
 .faqsection .accordion-item + .accordion-item {
-  margin-top: 36px;
+  margin-top: 25px;
 }
+
+/* start faqsection */
+.faqsection .nav.nav-tabs {
+  margin-bottom: 100px;
+}
+.faqsection .nav-tabs .nav-item.show .nav-link,
+.faqsection .nav-tabs .nav-link.active {
+  border: 0px;
+  color: #1e1e1e;
+  box-shadow: 0px 30px 45px 0px #d9b3003b;
+  background: #ffd200;
+}
+.faqsection .nav-tabs .nav-link {
+  border: 0px;
+  padding: 0px;
+  width: 220px;
+  height: 180px;
+  border-radius: 20px;
+  border: 1px 0px 0px 0px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+}
+.faqsection .nav-link {
+  color: #1e1e1e;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.faqsection .nav-tabs {
+  border-bottom: 0px;
+}
+.faqsection .nav.nav-tabs {
+  gap: 0px 30px;
+}
+.jstcentear {
+  justify-content: center;
+}
+.faqicon {
+  margin-bottom: 20px;
+}
+.faqtabheading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.faqpagestyl {
+  border-top: 1px solid #b2bee9;
+  padding-top: 100px;
+  margin-top: 100px;
+}
+.faqpagestyl .quscont p {
+  max-width: 100%;
+}
+/* end faqsection */
+
+/* start policysection */
+.policysection {
+  width: 100%;
+  position: relative;
+  background: #f1f4ff;
+}
+.policycontainer {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+.policysection p {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.policysection h3 {
+  margin: 40px 0px;
+}
+.policysection h6 {
+  font-family: Helvetica;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.policysection p b {
+  font-weight: 700;
+  color: #1e1e1e;
+}
+.tcban h1 {
+  max-width: 100%;
+}
+/* end policysection */
+
+/* start for blogdetail html */
+.bloglisting li {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #1e1e1e;
+  padding-left: 50px;
+  background: url(../images/check.svg) no-repeat;
+  background-position: top left;
+  background-size: 26px 26px;
+}
+.blogpegination ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blogpegination {
+  width: 100%;
+  max-width: 480px;
+  margin: 80px auto 0 auto;
+}
+.blogpegination ul li {
+  margin: 0px;
+}
+.blogsmallcont {
+  border-left: 3px solid #ffd200;
+  padding-left: 30px;
+  margin: 80px 0px 60px 60px;
+  width: 100%;
+  max-width: 830px;
+}
+.blogsmallcont p strong {
+    font-weight: 700;
+}
+/* end for blogdetail html */

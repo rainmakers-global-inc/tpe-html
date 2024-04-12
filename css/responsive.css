@@ -1,9 +1,4 @@
-@media (min-width: 1400px) {
-  .container {
-    max-width: 1800px;
-    padding: 0px 15px;
-  }
-}
+
 
 @media (max-width: 1499px) {
   .application .app_cld_one {
